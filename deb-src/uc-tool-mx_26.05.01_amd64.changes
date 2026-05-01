@@ -1,0 +1,53 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.8
+Date: Fri, 01 May 2026 09:42:11 -0400
+Source: uc-tool-mx
+Binary: uc-tool-mx
+Architecture: source all
+Version: 26.05.01
+Distribution: mx
+Urgency: medium
+Maintainer: fehlix <fehlix@mxlinux.org>
+Changed-By: fehlix <fehlix@mxlinux.org>
+Description:
+ uc-tool-mx - Generate and inject AMD/Intel microcode CPIO images into initrd
+Changes:
+ uc-tool-mx (26.05.01) mx; urgency=medium
+ .
+   * uc-tool an initrd microcode management tool.
+   * Initial release.
+Checksums-Sha1:
+ a352c1f7e1348086003e838eac2cab0c1b1cc06b 1476 uc-tool-mx_26.05.01.dsc
+ 2c3d3e350c3b5aef978a9720d0288a585a759f52 16352 uc-tool-mx_26.05.01.tar.xz
+ b4b03423830a7d07e749475a99724c8acd4321a4 16456 uc-tool-mx_26.05.01_all.deb
+ da65ed7320b8707c43ef947321e6ebaf6740c9ed 5868 uc-tool-mx_26.05.01_amd64.buildinfo
+Checksums-Sha256:
+ 49f0d63a94a3e7bda14ae819dfde4e95bcc9b35a14de964d3054db19cd45a993 1476 uc-tool-mx_26.05.01.dsc
+ 16855d711f88685e444e1ace52db5e8baacb9e32ca6c90c07ccdf9757bef05d4 16352 uc-tool-mx_26.05.01.tar.xz
+ db571d78418e3c418e312dad9b3a662fde275881ed6d8e51bfa431eee8518450 16456 uc-tool-mx_26.05.01_all.deb
+ 16481b1dd07fd9f0712af3059074ca957f49efded8a5bcd7277a95449a5ceec3 5868 uc-tool-mx_26.05.01_amd64.buildinfo
+Files:
+ 792a5c814d883fdb6729965391d1686d 1476 utils optional uc-tool-mx_26.05.01.dsc
+ 1c599a07e60112bfcb4831aed7407d85 16352 utils optional uc-tool-mx_26.05.01.tar.xz
+ 99eb75351aa782821c730d9ae277e9cc 16456 utils optional uc-tool-mx_26.05.01_all.deb
+ 2eb1f1fdaa28dff0eb9a6a680b5bfe4d 5868 utils optional uc-tool-mx_26.05.01_amd64.buildinfo
+
+-----BEGIN PGP SIGNATURE-----
+
+iQJHBAEBCgAxFiEEgRnC8/wKXRM2S0xLL1ePG6ydm+kFAmn1DQUTHGZlaGxpeEBt
+eGxpbnV4Lm9yZwAKCRAvV48brJ2b6b95D/wN+W2E4kKIFkLQNWDoDRKOxVL9undB
+A47+CUZ0Ejrrhl3mtODJYW4eS/S20TLMMDNkGJpJdvLa7xzg+rYb7b00fH7TVHr1
+XAWVfpJ7ZcqBHU5/Z7/Xh6VUthFBuk4C6KeOQejicA+qvN6i8o+sKdHvCn4Cv5Hf
+6Uu1BTjJ6wChdaYC/A4vzbMO+8sW1ibVUNh9ypGVcxttzfw5u8JsYSsbKy8jPi4a
+X2/KmlYQM8voUBbS84dfLzou+73cYlvZKGJ6oKyEu+7liNUOmhyz73FuEwOKBCQg
+0Yw+YmgwTiG8N+GrMXAobxEu6wPq+LvIDN5zWM5rsRl31IPYEKj+bsEUrEi9xDz/
+3vbi4AsCPZ2wtOdYP4qZafVZnKiM9YgA688lERkt5FJH1vIfr46EQvOklDD1G3BO
+MUbvWT5qerQkmV8AuJ3OQs0a/qvpQZep+LWFKvkgv4lHVXUKDZj9pjUKLNMrA15q
+MPOXveeHYnM2UDfYm7Ul7FT2iFdwV0+9/G2We/uQie2JulzvFO6U7jLnfZy0N5qf
+8n5dabZERm+POQi5ryHJrwTrM0Mx2YF7I6/NMnt5j3vJ3P411qvLvba6V4bStAOB
+q7XPl+96JG02uxlhBIS6U5xJqaRydwUhU9P9GAjjzwWG1/h8T3ad6AE7SKgD0K+V
+WGggVCSoO9nIYA==
+=GGKs
+-----END PGP SIGNATURE-----
