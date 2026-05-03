@@ -1,0 +1,52 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.8
+Date: Sun, 03 May 2026 16:01:43 -0400
+Source: uc-tool-mx
+Binary: uc-tool-mx
+Architecture: source all
+Version: 26.05.2
+Distribution: mx
+Urgency: medium
+Maintainer: fehlix <fehlix@mxlinux.org>
+Changed-By: fehlix <fehlix@mxlinux.org>
+Description:
+ uc-tool-mx - Generate and inject AMD/Intel microcode CPIO images into initrd
+Changes:
+ uc-tool-mx (26.05.2) mx; urgency=medium
+ .
+   * Fix verbose mode fd6 redirection in main.
+Checksums-Sha1:
+ dc9c7cf9541743c6b7dcde7d0c7c04fb797072c3 1472 uc-tool-mx_26.05.2.dsc
+ 2bd711671843296ec8b8bf51beb2250e8c9683b2 16544 uc-tool-mx_26.05.2.tar.xz
+ 8d7a87c3fb74a05c6a803e6a08327be15447fd8e 16668 uc-tool-mx_26.05.2_all.deb
+ 6008d3870c4cceb0a8cb02f87407fe32812daf8d 5861 uc-tool-mx_26.05.2_amd64.buildinfo
+Checksums-Sha256:
+ 87132552fa92cef90ffe001768e3ee3edef4781b8bf368c96bbb6e80e02379fc 1472 uc-tool-mx_26.05.2.dsc
+ dc5419ed111e59e66fdc8a1733a1b4717bffa4dcf451493662a2bd20308142ee 16544 uc-tool-mx_26.05.2.tar.xz
+ adb5596fbc6383eff1dfd1f756018043cfda906a361aa2df173a17485a3045a1 16668 uc-tool-mx_26.05.2_all.deb
+ 64b29461c53a562c353adf9e012d538acc7eef958bd2b79ec2f563f0caa87e87 5861 uc-tool-mx_26.05.2_amd64.buildinfo
+Files:
+ 0e852197a3bb42f39678586102fedae3 1472 utils optional uc-tool-mx_26.05.2.dsc
+ f743550ef8731e8643d2d50268932983 16544 utils optional uc-tool-mx_26.05.2.tar.xz
+ 16e09d68cb0d0cec5960dcd5ac72751b 16668 utils optional uc-tool-mx_26.05.2_all.deb
+ 183eb4e6ddca8f06273df33f910ffd8c 5861 utils optional uc-tool-mx_26.05.2_amd64.buildinfo
+
+-----BEGIN PGP SIGNATURE-----
+
+iQJHBAEBCgAxFiEEgRnC8/wKXRM2S0xLL1ePG6ydm+kFAmn3q7oTHGZlaGxpeEBt
+eGxpbnV4Lm9yZwAKCRAvV48brJ2b6eO0D/wIm3XvfjHmm5aZKLcTNdZIdQ6v4afF
+ALjZ88WzXrIqvdq3SFrJnqZn0851iEvaWTPCZ0/5D2q7Ak2KllSjZ2OdHxYvO1m9
+vw0ZFxcJF7YOmiuHQdbOp2bWVE49MqiTS2PvYEZ4I8J7PF1BdmN/f0FnZ+qp3j+/
+fzCVRKttlVhbiUNJrcvOZ/9EGmZfXYdPAuD51aLqxh3UxIimF9ebPdDTU6p4i+5I
+45vHDzKas9MnNIfWMLtLzWbZp6d+AsDiaGN2xijvQOdi8F2KWhRGMAjVB1Yw9I8n
+HoeZdVKPjXsVZSSk81bQJhVPQxP4FRfBUefb492JxwJ2PGpNebQQ3I+J524Gh1kL
+nyP/8FeLvr4D7VQpQd/joTUNYxoViSEHMkdVornlMgqoU6MRK0OSDPEm/mCFEOqr
+HDIGI9HR66YhgSSbtgajltyit3xCpXuV5G3h+v4lr3cC/oNog85w2yWJXjhSfMim
+LE7k3ZzH8oE8OVVTGtulzMc2UGgjoYGVZkI+riNLwjhIFEjzmx6agYWzMOX063Y7
+7F6fK9HttFf6T5c36DRjCQJ9Dun/1Ln6OoF0lB8Sfyq3m9IabhCkunrY1IVCuXIP
+yK4ctmz3gxH41ztlAvFSf+Mr0+uJNk/y4fGYkEGnD+xVvDr8K6xRb9DVsrw9AlUT
+id2Y3Ts1A8JtJQ==
+=pi2y
+-----END PGP SIGNATURE-----
