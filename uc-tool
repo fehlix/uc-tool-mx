@@ -28,8 +28,8 @@
 # based on ideas and functions used in unpack-initrd (thanks BitJam)
 #------------------------------------------------------------------------------
 
-     VERSION="26.05.01"
-VERSION_DATE="2026-05-01"
+     VERSION="26.05.2"
+VERSION_DATE="2026-05-03"
 
 ME=${0##*/}
 
@@ -1606,7 +1606,11 @@ nq()  { echo "$num_co$*$m_co" ;}
 dq()  { local p="$1"; [ "${p#$PWD/}" != "$p" ] && p="./${p#$PWD/}"; echo "$hi_co$p$m_co" ;}
 
 cmd() {
-    [ "$VERBOSE" ] && echo "$@"
+    # fd6 must point to the terminal (set via "main "$@" 6>&1" at startup).
+    # Writing verbose output to fd6 instead of fd1 ensures it reaches the
+    # terminal even when cmd() is called inside $(...) command substitutions,
+    # where fd1 is redirected to a pipe and would corrupt the captured result.
+    [ "$VERBOSE" ] && echo "$@" >&6
     "$@"
 }
 
@@ -1642,4 +1646,4 @@ show_version() {
 }
 
 #------------------------------------------------------------------------------
-main "$@"
+main "$@" 6>&1
