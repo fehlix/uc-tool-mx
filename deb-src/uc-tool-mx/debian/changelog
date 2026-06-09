@@ -5,8 +5,10 @@ uc-tool-mx (26.06.1) mx; urgency=medium
     syntax line, replace ambiguous "(bare)" with "ucode [default]".
   * debian/rules: inject version and date from changelog into installed
     script and man page.
+  * --list: show compression name in brackets (e.g. [gzip]) instead of
+    file extension ([gz]) for the main initrd section.
 
- -- fehlix <fehlix@mxlinux.org>  Mon, 08 Jun 2026 19:12:48 -0400
+ -- fehlix <fehlix@mxlinux.org>  Tue, 09 Jun 2026 13:28:40 -0400
 
 uc-tool-mx (26.05.2) mx; urgency=medium
 
