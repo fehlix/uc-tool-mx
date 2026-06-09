@@ -1,0 +1,58 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.8
+Date: Tue, 09 Jun 2026 13:28:40 -0400
+Source: uc-tool-mx
+Binary: uc-tool-mx
+Architecture: source all
+Version: 26.06.1
+Distribution: mx
+Urgency: medium
+Maintainer: fehlix <fehlix@mxlinux.org>
+Changed-By: fehlix <fehlix@mxlinux.org>
+Description:
+ uc-tool-mx - Generate and inject AMD/Intel microcode CPIO images into initrd
+Changes:
+ uc-tool-mx (26.06.1) mx; urgency=medium
+ .
+   * Add bash-completion for uc-tool.
+   * Clarify --extract and --list help/man page: show valid modes in
+     syntax line, replace ambiguous "(bare)" with "ucode [default]".
+   * debian/rules: inject version and date from changelog into installed
+     script and man page.
+   * --list: show compression name in brackets (e.g. [gzip]) instead of
+     file extension ([gz]) for the main initrd section.
+Checksums-Sha1:
+ 832ff432e2f552f94824d5f5c94ac8c1a5109739 1472 uc-tool-mx_26.06.1.dsc
+ 694a47f902420f996f547ede3bd607df9f32a375 16964 uc-tool-mx_26.06.1.tar.xz
+ f1c0c76fc33019ec8978afb3960d8ca3556b9a21 17404 uc-tool-mx_26.06.1_all.deb
+ 7532dded18616d59cf0f5c2efc4c881e4bed5bfa 6257 uc-tool-mx_26.06.1_amd64.buildinfo
+Checksums-Sha256:
+ 26b5fad29c9f36ac791297195f18c6ba17390a8b0104aa1b564628516e0a0805 1472 uc-tool-mx_26.06.1.dsc
+ 382837326467f330ed400276a9467e5514736c1dc8c33d9b61b9283bd2f24a9d 16964 uc-tool-mx_26.06.1.tar.xz
+ 0b94167505dcb34a3fb7d5784287b03253679357dda1de66b23ce2c78913b43b 17404 uc-tool-mx_26.06.1_all.deb
+ 26c08263c8ec09e0bd0d1f6a75e49df4648f4531156e7eb34bc87e55c6244136 6257 uc-tool-mx_26.06.1_amd64.buildinfo
+Files:
+ a43b5bad4e72451f1c978a28c7ef2e76 1472 utils optional uc-tool-mx_26.06.1.dsc
+ 4736b6cb3879c45aeb69aebe83ef3fd7 16964 utils optional uc-tool-mx_26.06.1.tar.xz
+ 64ef5a41992b5931326a64f73503379b 17404 utils optional uc-tool-mx_26.06.1_all.deb
+ eb5f038112da3b1cb5c1817ca57134f3 6257 utils optional uc-tool-mx_26.06.1_amd64.buildinfo
+
+-----BEGIN PGP SIGNATURE-----
+
+iQJHBAEBCgAxFiEEgRnC8/wKXRM2S0xLL1ePG6ydm+kFAmooUZ8THGZlaGxpeEBt
+eGxpbnV4Lm9yZwAKCRAvV48brJ2b6dwiD/47nD4NwIksoKVn6eeoXhgDA/wdVOdj
+kU7BiZ6rLK9kp9oVnLntKxqHKh5p4Vk/uQTLI746KmUwRltPO/kVOPmW71t2AWu2
+Q5tm3zLhOc1Xn/7DAs1F6y/TWIzsaIlqJWa0k2PoHImr7lle4BiFmzXIpiOaiucM
+AcE0m6ZZqS1956/Z43QA8gfFXBWFcavn19BeHcSpQSxdQSuVgvJRXag1EmIVLKTn
++9wUUgGEIn9JJgHe41ZwaRwkuMarEzbrpdlFTnoNze/T+9Yef8c35zte6QKExmqF
+oN7pb7VjMMCm9/mso1R+aVZ/l3ebJILtA2uGnhWS5Lo6xZvFkvvnljC2H7XrXe7K
+qHxiyoXD7NDqhXMr63UpApQt6TAdNcGGqgcObhNXxIj08C/ndutSprX2WFUzYDoj
+M/PMkY9L7SBnAniaETg0YtiNJEXuslEscObIR9uEGyYiw+CZ/PoGq6Q5ppy4eSzt
+UPh48oqwJRqdvdJGKaOSJJprV9A6qNeDO3rHjw+1ntE8PWL5Ifc8QTG6sv41xWfU
+QRuWY3csUysJYHv/DYGZGLFxV7znaateNmzMUGucwg38gJNZCOvYkPQpD0CdtR2c
+X0kHkhTxUJh8jko7OPHdFsqKLCtoFkFMyk6d/tu8fgRnTtLRELeeWE6l2g8GBcYU
+fBopT/MvmFwVKg==
+=u4K3
+-----END PGP SIGNATURE-----
