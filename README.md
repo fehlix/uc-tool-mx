@@ -142,5 +142,5 @@ Then run `make` from `deb-src/`.
 GNU General Public License v3 — see [debian/copyright](deb-src/uc-tool-mx/debian/copyright)
 or <https://www.gnu.org/licenses/gpl-3.0.html>.
 
-Copyright © 2026 fehlix \<fehlix@mxlinux.org\>  
-Copyright © 2026 MX Linux Development Team \<https://mxlinux.org\>
+Copyright © 2026 fehlix (MX Linux)  
+Copyright © 2026 MX Linux Development Team <https://mxlinux.org>

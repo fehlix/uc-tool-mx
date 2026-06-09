@@ -561,7 +561,7 @@ do_list() {
         local size_bytes
         size_bytes=$(stat -c%s "$main_tmp")
         printf "  %s  %s  [%s]\n" \
-            "$(pq "main1.${ext}")" "$(nq "$(_size_h "$size_bytes")")" "$(pq "$ext")"
+            "$(pq "main1.${ext}")" "$(nq "$(_size_h "$size_bytes")")" "$(pq "$(section_comp_label "$ext")")"
 
         if [ "$LIST_MODE" = "unpack" ]; then
             if [ "$VERBOSE" ]; then
@@ -1176,6 +1176,19 @@ ucode_vendor() {
         *AuthenticAMD*) echo "amd-ucode"   ;;
         *GenuineIntel*) echo "intel-ucode" ;;
         *)              echo "ucode"       ;;
+    esac
+}
+
+#------------------------------------------------------------------------------
+# Map short compression extension to human-readable compression name.
+#------------------------------------------------------------------------------
+section_comp_label() {
+    case $1 in
+        gz)  echo "gzip"  ;;
+        zst) echo "zstd"  ;;
+        bz2) echo "bzip2" ;;
+        lzo) echo "lzop"  ;;
+        *)   echo "$1"    ;;
     esac
 }
 

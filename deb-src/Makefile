@@ -4,9 +4,20 @@ MAN     := uc-tool.1
 SRCDIR  := $(PKG)
 SCRIPT  := ../$(BIN)
 
-.PHONY: all deb release prepare clean
+.PHONY: all help deb release prepare clean sign
 
-all: deb
+all: help
+
+help:
+	@echo "Usage: make <target>"
+	@echo ""
+	@echo "  deb       Build unsigned .deb (for local testing)"
+	@echo "  release   Build signed .deb for upload"
+	@echo "  sign      Alias for release"
+	@echo "            Override signing key: make release GPGKEY=ABCDEF1234"
+	@echo "  clean     Remove build artifacts and prepared source files"
+	@echo ""
+	@echo "Tip: run './build' from the repo root (wraps make from deb-src/)"
 
 # Unsigned build for local testing.
 deb: prepare
