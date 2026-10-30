@@ -1,0 +1,59 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.8
+Date: Thu, 29 Oct 2026 20:04:47 -0400
+Source: uc-tool-mx
+Binary: uc-tool-mx
+Architecture: source all
+Version: 26.10.1
+Distribution: mx
+Urgency: medium
+Maintainer: fehlix <fehlix@mxlinux.org>
+Changed-By: fehlix <fehlix@mxlinux.org>
+Description:
+ uc-tool-mx - Generate and inject AMD/Intel microcode CPIO images into initrd
+Changes:
+ uc-tool-mx (26.10.1) mx; urgency=medium
+ .
+   * Add --ucode=auto and make it the default: build microcode for each
+     vendor whose firmware (and for Intel: iucode_tool) is available,
+     skip the others with a warning, and fail only if none is available.
+     An explicit vendor list (amd, intel, amd,intel) stays strict.
+   * Remove stale amd-ucode.img/intel-ucode.img of vendors not built in
+     the current run from the output dir, so a leftover from an earlier
+     run is never silently injected into the initrd.
+   * Drop the unused ucode-*.img glob from the initrd update.
+Checksums-Sha1:
+ 62cb1d9d9eb203a25cbc8bf65d33cf3e7cb889bc 1472 uc-tool-mx_26.10.1.dsc
+ 3bbd4cb55d409ae60b1fdbc4614280b30d3fbdef 17940 uc-tool-mx_26.10.1.tar.xz
+ 5585b71291ef1c8a929802df1a7f84e0bd0fb4aa 18560 uc-tool-mx_26.10.1_all.deb
+ cab6fcbf76d8fdce9c15e9853206ead55f6d32ab 6152 uc-tool-mx_26.10.1_amd64.buildinfo
+Checksums-Sha256:
+ f58fc36a3dfaa5b71e40f08c6028051f3f0ab66a3cd137c7c00fa42ec363ddb9 1472 uc-tool-mx_26.10.1.dsc
+ 7960f4fa4debb1dff130518bd88834c0db489f1feb07cb90829793e983fb2b13 17940 uc-tool-mx_26.10.1.tar.xz
+ 760e1a660752cbdaa20a7b6fc813a77faa65fc333c3785121e3377cc6735918e 18560 uc-tool-mx_26.10.1_all.deb
+ 13cc6f5b626621dddda1d36c34727a0d2b4e263ee699ff5e3668d5a0610508c1 6152 uc-tool-mx_26.10.1_amd64.buildinfo
+Files:
+ 04672438d8fff6a85da4ef7cd7ce99a6 1472 utils optional uc-tool-mx_26.10.1.dsc
+ 9a2bc47d4c5ea2988e4bec62b830a87b 17940 utils optional uc-tool-mx_26.10.1.tar.xz
+ 5935774658e9a0e90af825cb31777512 18560 utils optional uc-tool-mx_26.10.1_all.deb
+ b8db32ec99e620939d1bf194b53232c4 6152 utils optional uc-tool-mx_26.10.1_amd64.buildinfo
+
+-----BEGIN PGP SIGNATURE-----
+
+iQJHBAEBCgAxFiEEgRnC8/wKXRM2S0xLL1ePG6ydm+kFAmrj4P0THGZlaGxpeEBt
+eGxpbnV4Lm9yZwAKCRAvV48brJ2b6bikEACIP++mt5d0iKKfGKJ2KYcFoul/WcqT
+/RSkK3LfkX+EsnAMwkwOTd5VOiB1vlBVDm39S+hzr5J+199dhlUYX3KlKKfZSfOP
+KRuA5e9QZSmBNF6/ifUCgI3gT4HOI45orzJGmTzTH2ZccxgQosl3SYKPvAeS9TIP
+mm2kITrdoPDiY596WydVA9+hvb2Th5q10e51WsLNV/OtUpJKzeoXcqC1UxF4LRo4
+FuztU4ox1fSf95zsoIpyv+5mZjmaLHPKMCIJ9GPsxc02GJYj8Ay+g7q5aKdc/o/Q
+G9bUO17uuUAu/8S+sQSRjO919eJtBpe3LPxM2mPncvRFEINGrT/9NmO/yW18ALzb
+POrMQ6iHcJXygsYzqetMhiT/HQg5iFTd3bjSK1P7X8/1o6B72wTzEq4Wtcz2C4yI
+OA2tDBvscwSANBddmm+b647sXWHZQvSNKTa6J1IQfBAo47eG90L7x7sym+wwoe4O
+BHp0yQG4iZslJw+obxCjpT7CybyUuUXdtuPIiLtiQBYfNKNzXaPkvrvrTFd1zakK
+6vA2K9gATXd0QRRNHSz8wLvA4miCHbK4EiHMzcXoK3O8k5/Kd52rSvbzKkauswRj
+CWEDZLPAFZB9BHqjGeL0aCTtNDlzdIdk/H53yQPdOxva4Z1ctznUIRvlb+cURpxb
+2gSAD02/s4PgMQ==
+=WXDu
+-----END PGP SIGNATURE-----
